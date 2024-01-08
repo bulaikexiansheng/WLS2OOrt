@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <src>
+        <ip>127.0.0.1</ip>  <!--ip地址自动检测，无需配置-->
+        <port>0</port>   <!--默认端口6666，可以修改,0表示端口随机-->
+    </src>
+    <target>
+        <ip>172.30.87.227</ip>
+        <port>6666</port>
+    </target>
+    <request>
+        <type>register</type>
+    </request>
+</root>
