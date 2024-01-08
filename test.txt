@@ -1,0 +1,3 @@
+conv_weight:1.0
+conv_weight:2.0
+conv_weight:-2.0

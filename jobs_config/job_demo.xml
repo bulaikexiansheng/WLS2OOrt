@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <src>
+        <ip>127.0.0.1</ip>  <!--ip地址自动检测，无需配置-->
+        <port>0</port>   <!--默认端口6666，可以修改,0表示端口随机-->
+    </src>
+    <target>
+        <ip>172.30.87.227</ip>
+        <port>6666</port>
+    </target>
+    <request>
+        <type>job</type>
+    </request>
+    <job>
+        <job_name>fashion_mnist</job_name>
+        <workers>1</workers>
+        <dataset>fashion_mnist</dataset>
+        <models>
+            <model>BlackNet_fashion_mnist</model>
+        </models>
+        <hyper_parameters>
+            <rounds>10</rounds>
+            <base_learning_rate>0.01</base_learning_rate>
+        </hyper_parameters>
+    </job>
+</root>
